@@ -1,9 +1,158 @@
-<mxfile host="app.diagrams.net" modified="2023-10-02T13:03:14.870Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" version="21.8.2" etag="t3PjWgyiQk3rkVlbDOEJ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-02T13:57:24.428Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="uGOHEr9FcKpOuk3CZXvi" version="21.8.2" type="github">
   <diagram name="Page-1" id="zJy6HvhtDh35j9-V44j5">
-    <mxGraphModel>
+    <mxGraphModel dx="1912" dy="1008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NaH2QBrt2DKnw_cRfF---3" value="&lt;div&gt;Avaliação de veículos&lt;/div&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=30;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="1670" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---4" value="Lane 1" style="swimlane;html=1;startSize=20;horizontal=0;swimlaneLine=1;fillStyle=auto;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---3">
+          <mxGeometry x="30" width="1640" height="520" as="geometry">
+            <mxRectangle x="30" width="1620" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---5" value="Equipa Técnica" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---4">
+          <mxGeometry y="170" width="1640" height="350" as="geometry">
+            <mxRectangle y="170" width="40" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---20" value="Estado do&lt;br&gt;&lt;div align=&quot;center&quot;&gt;Veiculo&lt;/div&gt;" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---5">
+          <mxGeometry x="620" y="155" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---5" source="NaH2QBrt2DKnw_cRfF---31" target="NaH2QBrt2DKnw_cRfF---39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---5" source="NaH2QBrt2DKnw_cRfF---31" target="NaH2QBrt2DKnw_cRfF---42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---31" value="Executar test-drive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---5">
+          <mxGeometry x="740" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---36" value="&lt;div align=&quot;center&quot;&gt;Veiculo&lt;/div&gt;" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---5">
+          <mxGeometry x="250" y="160" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---39" value="Test Drive" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---5">
+          <mxGeometry x="620" y="10" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---5" source="NaH2QBrt2DKnw_cRfF---42" target="NaH2QBrt2DKnw_cRfF---46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---42" value="Abrir e verificar o motor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---5">
+          <mxGeometry x="940" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---5" source="NaH2QBrt2DKnw_cRfF---46" target="NaH2QBrt2DKnw_cRfF---48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---46" value="Avaliação no elevador" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---5">
+          <mxGeometry x="1140" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---48" value="Elaborar relatório" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---5">
+          <mxGeometry x="1340" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---53" value="Relatório" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---5">
+          <mxGeometry x="1530" y="230" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---5" source="NaH2QBrt2DKnw_cRfF---48" target="NaH2QBrt2DKnw_cRfF---53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---6" value="Rececionista" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---3">
+          <mxGeometry x="30" y="520" width="1640" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---6" source="NaH2QBrt2DKnw_cRfF---11" target="NaH2QBrt2DKnw_cRfF---12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---6">
+          <mxGeometry x="70" y="80" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---6" source="NaH2QBrt2DKnw_cRfF---12" target="NaH2QBrt2DKnw_cRfF---14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---12" value="Receber pedido" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---6">
+          <mxGeometry x="190" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---6" source="NaH2QBrt2DKnw_cRfF---14" target="NaH2QBrt2DKnw_cRfF---27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---14" value="Anotar dados do veículo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---6">
+          <mxGeometry x="390" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---6" source="NaH2QBrt2DKnw_cRfF---27" target="NaH2QBrt2DKnw_cRfF---29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---27" value="Apreciar estado do veículo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---6">
+          <mxGeometry x="590" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---29" value="Verificar documentação" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---6">
+          <mxGeometry x="790" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---44" value="Motor" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---6">
+          <mxGeometry x="970" y="-30" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="NaH2QBrt2DKnw_cRfF---6" source="NaH2QBrt2DKnw_cRfF---50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1400" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---6" source="NaH2QBrt2DKnw_cRfF---50" target="NaH2QBrt2DKnw_cRfF---64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---50" value="Informar Cliente" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---6">
+          <mxGeometry x="1340" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---64" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---6">
+          <mxGeometry x="1530" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---66" value="Avaliação Elevador" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="NaH2QBrt2DKnw_cRfF---6">
+          <mxGeometry x="1170" y="-30" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---6" target="NaH2QBrt2DKnw_cRfF---66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="-140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---3" source="NaH2QBrt2DKnw_cRfF---29" target="NaH2QBrt2DKnw_cRfF---31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---3" source="NaH2QBrt2DKnw_cRfF---27" target="NaH2QBrt2DKnw_cRfF---20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---3" target="NaH2QBrt2DKnw_cRfF---20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="880" y="490" />
+              <mxPoint x="680" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---3" source="NaH2QBrt2DKnw_cRfF---12" target="NaH2QBrt2DKnw_cRfF---36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="311" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---3" source="NaH2QBrt2DKnw_cRfF---42" target="NaH2QBrt2DKnw_cRfF---44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NaH2QBrt2DKnw_cRfF---3" source="NaH2QBrt2DKnw_cRfF---48" target="NaH2QBrt2DKnw_cRfF---50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1430" y="530" />
+              <mxPoint x="1430" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=open;endFill=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NaH2QBrt2DKnw_cRfF---3" source="NaH2QBrt2DKnw_cRfF---53" target="NaH2QBrt2DKnw_cRfF---50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;startArrow=oval;startFill=0;sourcePerimeterSpacing=6;endArrow=block;endFill=0;" edge="1" parent="1" source="NaH2QBrt2DKnw_cRfF---10" target="NaH2QBrt2DKnw_cRfF---12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaH2QBrt2DKnw_cRfF---10" value="Cliente" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="880" width="1640" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
